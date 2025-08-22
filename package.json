@@ -1,0 +1,13 @@
+{
+  "name": "web3-toolbox",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "send:eth": "node js/send-eth.js",
+    "read:contract": "node js/read-contract.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2"
+  }
+}
